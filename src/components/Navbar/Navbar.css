@@ -1,0 +1,51 @@
+.icons{
+    font-size: 25px;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #c24244;
+}
+
+.navbar-brand:hover {
+	color: #c24244;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: grey;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled {
+  background-color: #ffede7;
+}
+
+/* nav{
+    top:0;
+    box-shadow: 0px 13px 24px 0px rgba(0,0,0,0.08);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+} */
+nav .navbar-collapse.collapse{
+    display: block;
+}
+@media (max-width: 991px){
+    nav .navbar-collapse.collapse{
+        overflow: hidden;
+    }
+    nav .navbar-collapse.active{
+        height: 35vh !important;
+        background: #fcf8f6;
+    }
+}
+
+nav .navbar-collapse{
+    transition: .6s all ease-in-out;
+    height: 0 !important;
+}
+
