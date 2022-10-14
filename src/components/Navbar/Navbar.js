@@ -8,25 +8,25 @@ const Navbar = () => {
   const [show, setShow] = useState(true)
   return (
 
-    <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0 ">
+    <nav className="navbar navbar-expand-lg navbar-scroll shadow-0 ">
       <div className="container">
-        <a className="navbar-brand" href="#">Demmar Allen</a>
+        <a className="navbar-brand" href="/">Demmar Allen</a>
         <button className="navbar-toggler" onClick={() => setShow(!show)}>
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={show ? 'collapse navbar-collapse' : 'collapse navbar-collapse active'} id="navbarNavDropdown">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item active">
-              <a className="nav-link px-3" href="#!">Home</a>
+              <a className="nav-link px-3" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#!">Projects</a>
+              <a className="nav-link px-3" href="/#portfolio">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#!">Resume</a>
+              <a className="nav-link px-3" href="/view/resume">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#!">contact Me</a>
+              <a className="nav-link px-3" href="/#contact">contact Me</a>
             </li>
           </ul>
 

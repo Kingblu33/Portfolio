@@ -6,20 +6,20 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><AiFillYoutube /></a>
+        <footer className="footer text-center">
+            <div className="container px-4 px-lg-5">
+                <ul className="list-inline mb-5">
+                    <li className="list-inline-item">
+                        <a className="social-link rounded-circle text-white mr-3" href="#!"><AiFillYoutube /></a>
                     </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><AiFillLinkedin /></a>
+                    <li className="list-inline-item">
+                        <a className="social-link rounded-circle text-white mr-3" href="#!"><AiFillLinkedin /></a>
                     </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white " href="#!"><AiFillGithub /></a>
+                    <li className="list-inline-item">
+                        <a className="social-link rounded-circle text-white " href="#!"><AiFillGithub /></a>
                     </li>
                 </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Demmar Allen 2022</p>
+                <p className="text-muted small mb-0">Copyright &copy; Demmar Allen 2022</p>
             </div>
         </footer>
     )
