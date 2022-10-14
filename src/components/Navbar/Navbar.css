@@ -2,18 +2,18 @@
     font-size: 25px;
 }
 
-.navbar-brand {
+a.navbar-brand {
   letter-spacing: 3px;
-  color: #c24244;
+  color: black;
 }
 
-a .navbar-brand:hover {
+a.navbar-brand:hover {
 	color: #c24244;
 }
 
 .navbar-scroll .nav-link,
 .navbar-scroll .fa-bars {
-  color: #7f7066;
+  color: black;
 } 
 
 

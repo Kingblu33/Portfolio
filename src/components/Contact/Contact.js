@@ -51,16 +51,16 @@ const Contact = () => {
                             </div>
                             <div className="form-fluid mb-3">
                                 <textarea name='message' className="form-control" type="text" placeholder="Enter your message here..." required ></textarea>
-                                <label >Message</label>
+
                             </div>
-                            <div className="d-grid"><button className="button-36" type="submit">Submit</button></div>
+                            <button className="button-28" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-lg-4 text-center mb-5 mb-lg-0">
                         <i className="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
+                        <div>Number: 4079556268</div>
                     </div>
                 </div>
             </div>

@@ -3,17 +3,22 @@
     padding-bottom: 5rem;
   }
   .footer.footer .social-link {
+    border: 2px solid #1A1A1A;
+    color: #fff;
     display: block;
     text-decoration: none;
     height: 4rem;
     width: 4rem;
     line-height: 4.3rem;
     font-size: 1.5rem;
-    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    background-color: #1A1A1A;
     transition: background-color 0.15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   }
   .footer.footer .social-link:hover {
-    background-image: linear-gradient(92.88deg, #404e81 9.16%, #524a8b 43.89%, #4f31a0 64.72%);
+    color:black;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
     text-decoration: none;
   }
