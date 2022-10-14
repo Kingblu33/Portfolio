@@ -1,62 +1,34 @@
 import React from 'react'
 import './Project.css'
-import Project1 from '../../Images/portfolio-1.jpg'
-import Project2 from '../../Images/portfolio-2.jpg'
-import Project3 from '../../Images/portfolio-3.jpg'
-import Project4 from '../../Images/portfolio-4.jpg'
+import { ProjectList } from '../../Helpers/ProjectList'
+import { useNavigate } from "react-router-dom";
 const Project = () => {
+    const navigate = useNavigate();
     return (
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Recent</h3>
-                    <h2 class="mb-5">Projects</h2>
+        <section className="content-section" id="portfolio">
+            <div className="container px-4 px-lg-5">
+                <div className="content-section-heading text-center">
+                    <h3 className="text-secondary mb-0">Recent</h3>
+                    <h2 className="mb-5">Projects</h2>
                 </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Stationary</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <div className="row gx-0">
+                    {ProjectList.map((project, idx) => (
+                        <div className="col-lg-6">
+                            <a className="portfolio-item" key={idx} href="#!">
+                                <div onClick={() => {
+                                    navigate("/project/" + idx)
+                                }} className="caption">
+                                    <div className="caption-content">
+                                        <div className="h2">{project.name}</div>
+                                        <p className="mb-0">{project.skills}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="img-fluid" src={Project1} alt="..." autoPlay loop muted />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src={Project2} alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src={Project3} alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src={Project4} alt="..." />
-                        </a>
-                    </div>
+                                <img className="img-fluid" src={project.image} alt="..." autoPlay loop muted />
+                            </a>
+                        </div>
+                    ))}
+
+
                 </div>
             </div>
         </section>

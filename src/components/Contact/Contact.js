@@ -23,7 +23,7 @@ const Contact = () => {
     };
 
     return (
-        <section classname="page-section">
+        <section className="page-section" id="contact ">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-lg-8 col-xl-6 text-center">
@@ -38,13 +38,13 @@ const Contact = () => {
                         <form ref={form} id="contactForm fluid"
                             onSubmit={sendEmail}>
 
-                            <div class="form-floating mb-3">
+                            <div className="form-floating mb-3">
                                 <input name='name' className="form-control" type="text" placeholder="Enter your name..." required />
                                 <label >Full name</label>
 
 
                             </div>
-                            <div classname="form-floating mb-3">
+                            <div className="form-floating mb-3">
                                 <input name='email' className="form-control" type="email" placeholder="name@example.com" required />
                                 <label >Email address</label>
 

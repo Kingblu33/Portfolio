@@ -5,6 +5,10 @@
     max-width: 530px;
     margin: auto auto 1rem;
   }
+  .proj-img{
+    /* width: 550px;
+    height: 70%; */
+  }
   .portfolio-item .caption {
     display: flex;
     height: 100%;
