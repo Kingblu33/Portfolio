@@ -26,23 +26,26 @@ const Navbar = () => {
               <a className="nav-link px-3" href="/view/resume">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="/#contact">contact Me</a>
+              <a className="nav-link px-3" href="mailto:demmarblue@gmail.com">Contact Me</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link px-3" href="/about">About</a>
             </li>
           </ul>
 
           <ul className="navbar-nav flex-row">
             <li className="nav-item">
-              <a className="nav-link " href="">
+              <a className="nav-link " href="https://www.youtube.com/channel/UCAKZV-7YHr-toMXeK1p-X8g" target="_blank">
                 <AiFillYoutube className='icons' />
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="">
+              <a className="nav-link " href="https://www.linkedin.com/in/demmar-allen-94179b194/" target="_blank">
                 <AiFillLinkedin className='icons ' />
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="https://github.com/Kingblu33" target="_blank">
                 <AiFillGithub className='icons' />
               </a>
             </li>
