@@ -50,7 +50,8 @@ export const ProjectList = [
         image: chatapp,
         video: video5,
         technologies: "React,Tailwind,Sanity,Google Auth",
-        Github: 'https://github.com/Kingblu33/socialmedia2'
+        Github: 'https://github.com/Kingblu33/socialmedia2',
+        liveView: 'https://socialmedia-inky.vercel.app'
     },
     {
         name: "GameRock",
