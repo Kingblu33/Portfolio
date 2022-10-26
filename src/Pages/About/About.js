@@ -18,13 +18,10 @@ const About = () => {
                     <div className="col-lg-4" data-aos="fade-right">
                         <img src={me} className="img-fluid rounded-circle m-b" alt="" />
                     </div>
-                    <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <div className="col-lg-8 pt-4 pt-lg-0 content pb-4" data-aos="fade-left">
                         <h3>SoftWare Engineer/ Full Stack Developer</h3>
-                        <p className="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
-                        </p>
-                        <div className="row">
+
+                        <div className="row pt-3">
                             <div className="col-lg-6">
                                 <ul>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>9 May 2000</span></li>
@@ -37,14 +34,13 @@ const About = () => {
                                 <ul>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Associates</span></li>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>Demmarblue@gmail.com</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Email</strong> <span>Demmarblue@gmail.com</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                 </ul>
                             </div>
                         </div>
-                        <p>
-                            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                        <p style={{ fontSize: "18px" }}>
+                            I am currently a Software Engineer/Full Stack Engineer. I am passionate about learning how things work and enjoy the process of learning new technologies that I can apply to my work and personal projects. I'm also passionate about game design and making content for Youtube/Twitch. Feel free to reach out for anything.
                         </p>
                     </div>
                 </div>

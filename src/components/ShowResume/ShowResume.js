@@ -1,6 +1,7 @@
 import React from 'react'
 import Resume from '../../assets/Demmar Resume 2022.pdf'
 import './ShowResume.css'
+import '../../index.css'
 const ShowResume = () => {
     return (
         <div className='experience container'>
@@ -8,7 +9,7 @@ const ShowResume = () => {
             <hr className='divider' />
             <iframe className='resume' src={Resume} />
             <div>
-                <button className='button-36'><a href={Resume} download>Download Resume</a></button>
+                <button className='button-36'>Download Resume<a href={Resume} download></a></button>
             </div>
 
         </div >

@@ -19,6 +19,8 @@
   .portfolio-item .caption .caption-content {
     color: #fff;
     margin: auto 2rem 2rem;
+    /* display:flex;
+    flex-wrap: wrap; */
   }
   .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
     font-size: 0.8rem;

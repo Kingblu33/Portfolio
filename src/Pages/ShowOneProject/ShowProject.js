@@ -22,7 +22,8 @@ const ShowProject = () => {
                     Skills: {project.skills}
                 </p>
                 <a className='icons mb-3' href={project.Github} target="_blank"><AiFillGithub /></a>
-                <button className='button-28 '><a>Live Preview</a></button>
+                <a href={project.liveView ? project.liveView : project.Github} target="_blank"><button className='button-36'>Live View</button></a>
+
 
             </div>
             <Footer />

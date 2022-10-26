@@ -20,7 +20,7 @@ const Project = () => {
                                 }} className="caption">
                                     <div className="caption-content">
                                         <div className="h2">{project.name}</div>
-                                        <p className="mb-0">{project.skills}</p>
+                                        <p className="mb-0 flex-wrap">{project.technologies}</p>
                                     </div>
                                 </div>
                                 <img className="img-fluid" src={project.image} alt="..." autoPlay loop muted />

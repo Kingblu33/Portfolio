@@ -3,53 +3,61 @@ import virtualclinic from "../Images/virtualclinic.jpg";
 import chatapp from "../Images/chatapp.jpg";
 import dragonball from "../Images/dragonball.jpg";
 import realtor from "../Images/realtor.jpg";
-import pacman from "../Images/pacman.jpg";
+import anime from "../Images/anime.jpg";
 
 import video3 from "../assets/DragonBall.mp4"
-import video1 from "../assets/Gaming WebSite.mp4"
+import video1 from "../assets/GamingWebsite.mp4"
 import video2 from "../assets/Health NetWork.mp4"
+import video4 from "../assets/GameRock.mp4"
+import video5 from "../assets/socialMedia.mp4"
 
 export const ProjectList = [
     {
-        name: "Gaming Eccomerce",
+        name: "Gaming Eccomerce (Revamp Cs)",
         image: Proj1,
-        skills: "Python,Flask,Mysql,HTML,CSS,Bootstrap",
+        technologies: "Python,Flask,Mysql,HTML,CSS,Bootstrap",
         video: video1,
         Github: 'https://github.com/Kingblu33/Gaming-website',
+        revamp: "Redsigning to a single page web application using react"
 
     },
     {
-        name: "Health Network",
+        name: "Health Network (Revamp Cs)",
         image: virtualclinic,
-        skills: "Java,SpringBoot,Mysql,Jsp,Css,Bootstrap,GoogleApi",
+        technologies: "Java,SpringBoot,Mysql,Jsp,Css,Bootstrap,GoogleApi",
         video: video2,
         Github: 'https://github.com/Kingblu33/Health_Network',
+        revamp: "Redsigning to a single page web application using react/angular"
     },
     {
         name: "Dragon Ball Turn Based",
         image: dragonball,
-        skills: "React,Node.js,CSS",
+        technologies: "React,Node.js,CSS",
         video: video3,
         Github: 'https://github.com/Kingblu33/DragonBall',
     },
 
     {
-        name: "Realtor Home finder",
+        name: "Portfolio",
         image: realtor,
-        skills: "React,Node.js,MongoDb,Bootstrap,HouseApi",
-        Github: 'https://github.com/Kingblu33'
+        technologies: "React,Bootstrap,Email.js",
+        Github: 'https://github.com/Kingblu33/Portfolio',
+        liveView: '/'
     },
 
     {
-        name: "Real Time chat app",
+        name: "Social Media",
         image: chatapp,
-        skills: "React,Node.js,MongoDb,Bootstrap,Socket.io",
-        Github: 'https://github.com/Kingblu33'
+        video: video5,
+        technologies: "React,Tailwind,Sanity,Google Auth",
+        Github: 'https://github.com/Kingblu33/socialmedia2'
     },
     {
-        name: "Pacman",
-        image: pacman,
-        skills: "Html,Css,JavaScript",
-        Github: 'https://github.com/Kingblu33'
+        name: "GameRock",
+        image: anime,
+        video: video4,
+        technologies: "React,Tailwind,Free to play api",
+        Github: 'https://github.com/Kingblu33/FreeToPlay',
+        liveView: "https://freetoplay-virid.vercel.app"
     },
 ];

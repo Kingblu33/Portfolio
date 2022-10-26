@@ -44,8 +44,8 @@ nav .navbar-collapse.collapse{
         overflow: hidden;
     }
     nav .navbar-collapse.active{
-        height: 35vh !important;
-        background: #fcf8f6;
+        height: 38vh !important;
+        background:transparent;
     }
 }
 
