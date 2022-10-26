@@ -12,6 +12,25 @@ import video4 from "../assets/GameRock.mp4"
 import video5 from "../assets/socialMedia.mp4"
 
 export const ProjectList = [
+
+
+    {
+        name: "GameRock",
+        image: anime,
+        video: video4,
+        technologies: "React,Tailwind,Free to play api",
+        Github: 'https://github.com/Kingblu33/FreeToPlay',
+        liveView: "https://freetoplay-virid.vercel.app"
+    },
+
+    {
+        name: "Social Media",
+        image: chatapp,
+        video: video5,
+        technologies: "React,Tailwind,Sanity,Google Auth",
+        Github: 'https://github.com/Kingblu33/socialmedia2',
+        liveView: 'https://socialmedia-inky.vercel.app'
+    },
     {
         name: "Gaming Eccomerce (Revamp Cs)",
         image: Proj1,
@@ -45,20 +64,5 @@ export const ProjectList = [
         liveView: '/'
     },
 
-    {
-        name: "Social Media",
-        image: chatapp,
-        video: video5,
-        technologies: "React,Tailwind,Sanity,Google Auth",
-        Github: 'https://github.com/Kingblu33/socialmedia2',
-        liveView: 'https://socialmedia-inky.vercel.app'
-    },
-    {
-        name: "GameRock",
-        image: anime,
-        video: video4,
-        technologies: "React,Tailwind,Free to play api",
-        Github: 'https://github.com/Kingblu33/FreeToPlay',
-        liveView: "https://freetoplay-virid.vercel.app"
-    },
+
 ];
