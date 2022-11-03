@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home';
 import Resume from './Pages/Resume/Resume';
 import ShowProject from './Pages/ShowOneProject/ShowProject';
 import About from './Pages/About/About';
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   return (
     <div className='container' >
@@ -21,6 +22,7 @@ function App() {
           <Route path='/about' element={<About />} />
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </div>
   );
 }
