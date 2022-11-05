@@ -22,9 +22,9 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link px-3" href="/#portfolio">Projects</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link px-3" href="/view/resume">Resume</a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link px-3" href="mailto:demmarblue@gmail.com">Contact Me</a>
             </li>
